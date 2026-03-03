@@ -3,6 +3,7 @@ from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from product.views import ProductViewSet
+from cart.views import CartView, CartAddItemView, CartItemView
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet, basename='products')
@@ -11,4 +12,10 @@ urlpatterns = [
     path('auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('', include(router.urls)),
+]
+
+urlpatterns += [
+    path("cart/", CartView.as_view(), name="cart"),
+    path("cart/items/", CartAddItemView.as_view(), name="cart_add_item"),
+    path("cart/items/<int:product_id>/", CartItemView.as_view(), name="cart_item"),
 ]
