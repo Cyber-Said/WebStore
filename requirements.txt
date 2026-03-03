@@ -9,5 +9,6 @@ psycopg2-binary==2.9.11
 pycparser==3.0
 PyJWT==2.11.0
 python-dotenv==1.2.1
+redis==7.2.1
 sqlparse==0.5.5
 tzdata==2025.3
