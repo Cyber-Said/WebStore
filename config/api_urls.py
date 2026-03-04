@@ -4,6 +4,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from product.views import ProductViewSet
 from cart.views import CartView, CartAddItemView, CartItemView
+from order.views import OrdersView, AdminOrdersView
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet, basename='products')
@@ -18,4 +19,9 @@ urlpatterns += [
     path("cart/", CartView.as_view(), name="cart"),
     path("cart/items/", CartAddItemView.as_view(), name="cart_add_item"),
     path("cart/items/<int:product_id>/", CartItemView.as_view(), name="cart_item"),
+]
+
+urlpatterns += [
+    path("orders/", OrdersView.as_view(), name="orders"),
+    path("admin/orders/", AdminOrdersView.as_view(), name="admin_orders"),
 ]
