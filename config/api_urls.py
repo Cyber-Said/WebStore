@@ -2,17 +2,17 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
-from product.views import ProductViewSet
 from cart.views import CartView, CartAddItemView, CartItemView
-from order.views import OrdersView, AdminOrdersView
+from order.views import OrdersView, AdminOrdersView, AdminOrderStatusView
+from product.views import ProductViewSet
 
 router = DefaultRouter()
-router.register(r'products', ProductViewSet, basename='products')
+router.register(r"products", ProductViewSet, basename="products")
 
 urlpatterns = [
-    path('auth/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('', include(router.urls)),
+    path("auth/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
+    path("auth/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("", include(router.urls)),
 ]
 
 urlpatterns += [
@@ -24,4 +24,5 @@ urlpatterns += [
 urlpatterns += [
     path("orders/", OrdersView.as_view(), name="orders"),
     path("admin/orders/", AdminOrdersView.as_view(), name="admin_orders"),
+    path("admin/orders/<int:order_id>/status/", AdminOrderStatusView.as_view(), name="admin_order_status"),
 ]
