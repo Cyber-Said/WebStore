@@ -1,0 +1,197 @@
+[
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "name": "Wireless Mouse",
+      "description": "Compact wireless mouse for everyday work.",
+      "price": "19.99",
+      "stock": 25,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with tactile switches.",
+      "price": "79.99",
+      "stock": 12,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "name": "USB-C Hub",
+      "description": "Multiport USB-C hub with HDMI and USB 3.0.",
+      "price": "34.50",
+      "stock": 18,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "name": "Noise-Cancelling Headphones",
+      "description": "Over-ear headphones with active noise cancellation.",
+      "price": "129.00",
+      "stock": 10,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+      "name": "27-inch Monitor",
+      "description": "QHD monitor with IPS panel and thin bezels.",
+      "price": "229.00",
+      "stock": 8,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "name": "Laptop Stand",
+      "description": "Aluminum laptop stand for better ergonomics.",
+      "price": "32.00",
+      "stock": 30,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "name": "Portable SSD 1TB",
+      "description": "Fast USB-C external SSD for backups and travel.",
+      "price": "109.00",
+      "stock": 15,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "name": "1080p Webcam",
+      "description": "Full HD webcam with auto light correction.",
+      "price": "49.00",
+      "stock": 20,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 9,
+    "fields": {
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with rich bass and 12-hour battery.",
+      "price": "59.00",
+      "stock": 22,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 10,
+    "fields": {
+      "name": "Ergonomic Chair",
+      "description": "Adjustable office chair with lumbar support.",
+      "price": "249.00",
+      "stock": 6,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 11,
+    "fields": {
+      "name": "Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness.",
+      "price": "24.00",
+      "stock": 28,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 12,
+    "fields": {
+      "name": "Gaming Mousepad",
+      "description": "Extended mousepad with smooth surface.",
+      "price": "14.99",
+      "stock": 40,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 13,
+    "fields": {
+      "name": "Smart Plug",
+      "description": "Wi-Fi smart plug with schedule and timer.",
+      "price": "18.50",
+      "stock": 35,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 14,
+    "fields": {
+      "name": "USB-C Charger 65W",
+      "description": "Compact fast charger for laptops and phones.",
+      "price": "39.99",
+      "stock": 16,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 15,
+    "fields": {
+      "name": "Ethernet Adapter",
+      "description": "USB to Gigabit Ethernet adapter.",
+      "price": "15.00",
+      "stock": 27,
+      "is_active": true,
+      "created_at": "2026-03-13T10:00:00Z",
+      "updated_at": "2026-03-13T10:00:00Z"
+    }
+  }
+]
